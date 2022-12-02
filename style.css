@@ -1,7 +1,9 @@
 .innen {
+    display: flex;
+    flex-wrap: wrap;
     width: 400px;
     height: 400px;
-    border: 2px solid black;
+   /* border: 1px solid black;*/
 }
 
 .aussen {
@@ -10,4 +12,11 @@
     justify-content: center;
     height: 100vh;
 
+}
+
+.feld1, .feld2, .feld3, .feld4, .feld5, .feld6, .feld7, .feld8, .feld9 {
+    
+    width: 131px;
+    height: 131px;
+    border: 1px solid black;
 }
